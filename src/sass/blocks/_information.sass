@@ -1,0 +1,101 @@
+.information
+	background-color: $main-light
+	padding: 145px 0
+	&-block
+	&__title
+		color: #000000
+	&-description
+		display: grid
+		grid-template-areas: "a b c" "d e f"
+		grid-gap: 30px
+	&__item
+		background-color: #F7F7F7
+		padding: 55px
+	&__image
+		display: block
+		margin: auto
+		margin-bottom: 15px
+	&__subtitle
+		color: #000000
+		font-size: 21px
+		line-height: 31px
+		font-weight: 500
+		font-style: normal
+		text-align: center
+		text-transform: uppercase
+		letter-spacing: 0.02em
+		margin: 0
+	&__item-one
+		grid-area: a
+	&__item-two
+		grid-area: b
+	&__item-three
+		grid-area: c
+	&__item-four
+		grid-area: d
+	&__item-five
+		grid-area: e
+	&__item-six
+		grid-area: f
+@media screen and (max-width: 1200px)
+	.information
+		padding: 135px 0
+		&-description
+			grid-gap: 25px
+		&__item
+			padding: 50px
+		&__image
+			margin-bottom: 14px
+		&__subtitle
+			font-size: 20px
+			line-height: 30px
+@media screen and (max-width: 1199px)
+	.information
+		padding: 125px 0
+		&-description
+			grid-gap: 25px
+		&__item
+			padding: 45px
+		&__image
+			margin-bottom: 13px
+		&__subtitle
+			font-size: 20px
+			line-height: 30px
+@media screen and (max-width: 991px)
+	.information
+		padding: 115px 0
+		&-description
+			grid-gap: 20px
+		&__item
+			padding: 40px
+		&__image
+			margin-bottom: 12px
+		&__subtitle
+			font-size: 19px
+			line-height: 29px
+@media screen and (max-width: 767px)
+	.information
+		padding: 105px 0
+		&-description
+			grid-template-areas: "a b" "c d" "e f"
+			grid-gap: 20px
+		&__item
+			padding: 35px
+		&__image
+			margin-bottom: 11px
+		&__subtitle
+			font-size: 19px
+			line-height: 29px
+@media screen and (max-width: 575px)
+	.information
+		padding: 95px 0
+		&-description
+			grid-template-areas: "a" "b" "c" "d" "e" "f"
+			grid-gap: 15px
+		&__item
+			padding: 30px
+		&__image
+			margin-bottom: 10px
+		&__subtitle
+			font-size: 18px
+			line-height: 28px

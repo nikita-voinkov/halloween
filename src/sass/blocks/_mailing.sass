@@ -1,0 +1,117 @@
+.mailing
+	background-color: $main-accent
+	padding: 45px 0
+	&-block
+	&-description
+		display: flex
+		justify-content: space-between
+		align-items: center
+	&-text
+	&__title
+		color: $main-light
+		font-size: 48px
+		line-height: 71px
+		font-weight: bold
+		font-style: normal
+		letter-spacing: 0.02em
+		text-transform: uppercase
+		margin: 0
+		margin-bottom: 20px
+	&__subtitle
+		color: $main-light
+		font-size: 24px
+		line-height: 36px
+		font-weight: bold
+		font-style: normal
+		letter-spacing: 0.02em
+		text-transform: uppercase
+		margin: 0
+	&-e-mail
+	&__button
+		color: #000000
+		font-size: 14px
+		line-height: 21px
+		font-weight: 500
+		font-style: normal
+		letter-spacing: 0.05em
+		text-transform: uppercase
+		background-color: $main-light
+		border: none
+		padding: 14px 30px
+@media screen and (max-width: 1200px)
+	.mailing
+		padding: 40px 0
+		&__title
+			font-size: 44px
+			line-height: 67px
+			margin-bottom: 18px
+		&__subtitle
+			font-size: 23px
+			line-height: 35px
+			&__button
+				font-size: 14px
+				line-height: 21px
+				padding: 14px 30px
+@media screen and (max-width: 1199px)
+	.mailing
+		padding: 35px 0
+		&__title
+			font-size: 40px
+			line-height: 63px
+			margin-bottom: 16px
+		&__subtitle
+			font-size: 22px
+			line-height: 34px
+		&__button
+			font-size: 14px
+			line-height: 21px
+			padding: 13px 30px
+@media screen and (max-width: 991px)
+	.mailing
+		padding: 30px 0
+		&__title
+			font-size: 36px
+			line-height: 59px
+			margin-bottom: 14px
+		&__subtitle
+			font-size: 21px
+			line-height: 33px
+		&__button
+			font-size: 13px
+			line-height: 20px
+			padding: 13px 29px
+@media screen and (max-width: 767px)
+	.mailing
+		padding: 25px 0
+		&__title
+			font-size: 32px
+			line-height: 55px
+			margin-bottom: 12px
+		&__subtitle
+			font-size: 20px
+			line-height: 32px
+		&__button
+			font-size: 13px
+			line-height: 20px
+			padding: 13px 29px
+@media screen and (max-width: 575px)
+	.mailing
+		padding: 20px 0
+		&-description
+			flex-direction: column
+		&-text
+			margin-bottom: 10px
+		&__title
+			font-size: 28px
+			line-height: 51px
+			text-align: center
+			margin-bottom: 10px
+		&__subtitle
+			font-size: 19px
+			line-height: 31px
+			text-align: center
+		&__button
+			font-size: 12px
+			line-height: 19px
+			padding: 12px 28px
+			text-align: center

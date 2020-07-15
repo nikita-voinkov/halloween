@@ -1,0 +1,83 @@
+.portfolio
+	padding: 0 0 108px 0
+	&-block
+	&__title
+		color: $main-dark
+	&-work
+		display: flex
+		justify-content: space-between
+		align-items: flex-start
+	&__job
+		flex-basis: 32%
+	&__image
+		width: 100%
+		margin-bottom: 45px
+	&__subtitle
+		position: relative
+		color: $main-dark
+		font-size: 24px
+		line-height: 36px
+		font-weight: 500
+		font-style: normal
+		padding-top: 15px
+		margin: 0
+		&:before
+			content: ''
+			position: absolute
+			top: 0
+			left: 0
+			width: 55px
+			height: 6px
+			background-color: $main-accent
+@media screen and (max-width: 1200px)
+	.portfolio
+		padding: 0 0 98px 0
+		&__image
+			margin-bottom: 40px
+		&__subtitle
+			font-size: 23px
+			line-height: 35px
+			padding-top: 14px
+@media screen and (max-width: 1199px)
+	.portfolio
+		padding: 0 0 88px 0
+		&__image
+			margin-bottom: 35px
+		&__subtitle
+			font-size: 22px
+			line-height: 34px
+			padding-top: 13px
+@media screen and (max-width: 991px)
+	.portfolio
+		padding: 0 0 78px 0
+		&__image
+			margin-bottom: 30px
+		&__subtitle
+			font-size: 21px
+			line-height: 33px
+			padding-top: 12px
+@media screen and (max-width: 767px)
+	.portfolio
+		padding: 0 0 68px 0
+		&-work
+			flex-wrap: wrap
+		&__job
+			flex-basis: 100%
+			margin-bottom: 15px
+		&__image
+			margin-bottom: 25px
+		&__subtitle
+			font-size: 20px
+			line-height: 32px
+			padding-top: 11px
+@media screen and (max-width: 575px)
+	.portfolio
+		padding: 0 0 58px 0
+		&__job
+			margin-bottom: 10px
+		&__image
+			margin-bottom: 20px
+		&__subtitle
+			font-size: 19px
+			line-height: 31px
+			padding-top: 10px
