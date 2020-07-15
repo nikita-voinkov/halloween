@@ -28,6 +28,9 @@
 		margin: 0
 	&-e-mail
 	&__button
+		display: flex
+		justify-content: space-between
+		align-items: center
 		color: #000000
 		font-size: 14px
 		line-height: 21px
@@ -38,6 +41,8 @@
 		background-color: $main-light
 		border: none
 		padding: 14px 30px
+	&__image
+		margin-right: 10px
 @media screen and (max-width: 1200px)
 	.mailing
 		padding: 40px 0
@@ -48,10 +53,12 @@
 		&__subtitle
 			font-size: 23px
 			line-height: 35px
-			&__button
-				font-size: 14px
-				line-height: 21px
-				padding: 14px 30px
+		&__button
+			font-size: 14px
+			line-height: 21px
+			padding: 14px 30px
+		&__image
+			margin-right: 10px
 @media screen and (max-width: 1199px)
 	.mailing
 		padding: 35px 0
@@ -66,6 +73,8 @@
 			font-size: 14px
 			line-height: 21px
 			padding: 13px 30px
+		&__image
+			margin-right: 10px
 @media screen and (max-width: 991px)
 	.mailing
 		padding: 30px 0
@@ -80,6 +89,8 @@
 			font-size: 13px
 			line-height: 20px
 			padding: 13px 29px
+		&__image
+			margin-right: 9px
 @media screen and (max-width: 767px)
 	.mailing
 		padding: 25px 0
@@ -94,6 +105,8 @@
 			font-size: 13px
 			line-height: 20px
 			padding: 13px 29px
+		&__image
+			margin-right: 9px
 @media screen and (max-width: 575px)
 	.mailing
 		padding: 20px 0
@@ -115,3 +128,5 @@
 			line-height: 19px
 			padding: 12px 28px
 			text-align: center
+		&__image
+			margin-right: 8px
