@@ -556,6 +556,9 @@ button {
 }
 
 .mailing__button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   color: #000000;
   font-size: 14px;
   line-height: 21px;
@@ -566,6 +569,10 @@ button {
   background-color: #ffffff;
   border: none;
   padding: 14px 30px;
+}
+
+.mailing__image {
+  margin-right: 10px;
 }
 
 @media screen and (max-width: 1200px) {
@@ -581,10 +588,13 @@ button {
     font-size: 23px;
     line-height: 35px;
   }
-  .mailing__subtitle__button {
+  .mailing__button {
     font-size: 14px;
     line-height: 21px;
     padding: 14px 30px;
+  }
+  .mailing__image {
+    margin-right: 10px;
   }
 }
 
@@ -606,6 +616,9 @@ button {
     line-height: 21px;
     padding: 13px 30px;
   }
+  .mailing__image {
+    margin-right: 10px;
+  }
 }
 
 @media screen and (max-width: 991px) {
@@ -626,6 +639,9 @@ button {
     line-height: 20px;
     padding: 13px 29px;
   }
+  .mailing__image {
+    margin-right: 9px;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -645,6 +661,9 @@ button {
     font-size: 13px;
     line-height: 20px;
     padding: 13px 29px;
+  }
+  .mailing__image {
+    margin-right: 9px;
   }
 }
 
@@ -674,6 +693,9 @@ button {
     line-height: 19px;
     padding: 12px 28px;
     text-align: center;
+  }
+  .mailing__image {
+    margin-right: 8px;
   }
 }
 
